@@ -1,6 +1,6 @@
 ﻿# Razor Pages Clean Architecture Template
 
-# Project Architecture Guide
+## Project Architecture Guide
 To build sites that are maintainable, scalable, and clean, we use a multi-layered Razor Pages architecture with Clean Architecture principles.
 Folder Overview:
 ```
@@ -14,7 +14,7 @@ PlantYourSite/
 └── build/                              # CI/CD or deployment scripts
 ```
 
-# Usage Tips:
+## Usage Tips:
 Keep page logic thin in `PlantYourSite.Web`; defer to services in `Application`.
 
 
